@@ -20,8 +20,8 @@ CONDICOES PARA AS FUNCIONALIDADES DA APLICACAO.
 - [x] O usuario nao pode fazer dois checkins no mesmo dia
 - [x] O usuario nao pode fazer checkin se nao estiver 100 metros da academia
 - [x] O checkin so pode ser validado ate 20 min apos criado
-- [ ] O checkin so pode ser validado por administrados
-- [ ] A academia so pode ser cadastrado por administradores
+- [x] O checkin so pode ser validado por administrados
+- [x] A academia so pode ser cadastrado por administradores
 
 RNF - REQUISITOS NAO-FUNCIONAIS
 QUAL BANCO DE DADOS
@@ -30,4 +30,4 @@ QUAL A ESTRATEGIA DE CACHE
 - [x] A senha do usuario deve estar criptografada
 - [x] Os dados da aplicacao precisam estar persistidos em um banco de dados postgreSQL
 - [x] Todas as listas de dados precisam estar paginadas com 20 itens por pagina
-- [ ] O usuario deve ser identificado por um JWT (JSON Web Token)
+- [x] O usuario deve ser identificado por um JWT (JSON Web Token)
