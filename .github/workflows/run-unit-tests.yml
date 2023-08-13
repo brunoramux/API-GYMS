@@ -16,4 +16,4 @@ jobs:
 
       - run: npm ci
 
-      - run: num run test
+      - run: npm run test
