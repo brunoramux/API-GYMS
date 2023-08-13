@@ -1,0 +1,17 @@
+# docker run --name apisolid  -e POSTGRESQL_USERNAME=apisolid -e POSTGRESQL_PASSWORD=apisolid -e POSTGRESQL_DATABASE=apisolid -p 32768:5432 bitnami/postgresql:latest
+#
+
+version: '3'
+
+services:
+  apisolid:
+    image: bitnami/postgresql:latest
+    ports:
+      - 32768:5432
+    environment:
+      - POSTGRESQL_USERNAME=apisolid
+      - POSTGRESQL_PASSWORD=apisolid
+      - POSTGRESQL_DATABASE=apisolid
+
+
+# usar o comando docker compose up para subir
