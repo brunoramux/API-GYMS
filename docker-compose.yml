@@ -7,7 +7,7 @@ services:
   apisolid:
     image: bitnami/postgresql:latest
     ports:
-      - 32768:5432
+      - 5432:5432
     environment:
       - POSTGRESQL_USERNAME=apisolid
       - POSTGRESQL_PASSWORD=apisolid
